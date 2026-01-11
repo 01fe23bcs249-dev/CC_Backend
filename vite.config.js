@@ -9,12 +9,12 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://cloudcomputing-flx3.onrender.com',
         changeOrigin: true,
         secure: false,
       },
       '/uploads': {
-        target: 'http://localhost:3000',
+        target: 'https://cloudcomputing-flx3.onrender.com',
         changeOrigin: true,
         secure: false,
       },
